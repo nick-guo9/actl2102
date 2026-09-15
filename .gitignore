@@ -1,0 +1,14 @@
+# Ignore everything by default...
+*
+# ...but let git look inside folders
+!*/
+
+# Old term: ignore entirely
+2025T2-old/
+
+# Keep only the compiled weekly slide decks
+!2026T3/week*/main.pdf
+
+# Keep repo files
+!.gitignore
+!LICENSE
